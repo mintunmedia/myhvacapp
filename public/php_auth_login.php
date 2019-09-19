@@ -8,9 +8,6 @@ $_title = 'Login - SmartAdmin v4.0.3';
 $_head = '<link rel="stylesheet" media="screen, print" href="'.ASSETS_URL.'/css/fa-brands.css">
 ';
 
-?>
-<?php
-
 // default demo user
 $user = \Models\User::instance(1);
 $demo_password = 'smartadmin2019';
@@ -61,7 +58,7 @@ if (is_post()) {
 
 ?>
 <!DOCTYPE html>
-<!-- 
+<!--
 Template Name:: SmartAdmin PHP 7 Responsive WebApp - Template built with Bootstrap 4 and PHP 7
 Version: 4.0.3
 Author: Jovanni Lo
