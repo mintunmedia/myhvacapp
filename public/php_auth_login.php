@@ -8,6 +8,8 @@ $_title = 'Login - SmartAdmin v4.0.3';
 $_head = '<link rel="stylesheet" media="screen, print" href="'.ASSETS_URL.'/css/fa-brands.css">
 ';
 
+// Here's a comment!
+
 // default demo user
 $user = \Models\User::instance(1);
 $demo_password = 'smartadmin2019';
