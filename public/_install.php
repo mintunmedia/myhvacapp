@@ -1,5 +1,5 @@
 <?php
-
+// Here's my one change
 require_once __DIR__.'/const.php';
 
 $_title = 'Installation - SmartAdmin v4.0.3';
@@ -14,7 +14,7 @@ $command .= 'composer install';
 
 ?>
 <!DOCTYPE html>
-<!-- 
+<!--
 Template Name:: SmartAdmin PHP 7 Responsive WebApp - Template built with Bootstrap 4 and PHP 7
 Version: 4.0.3
 Author: Jovanni Lo
